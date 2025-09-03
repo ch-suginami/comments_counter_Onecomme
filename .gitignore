@@ -1,2 +1,5 @@
 配布用/*
 .venv/*
+dist/*
+build/*
+*.spec
