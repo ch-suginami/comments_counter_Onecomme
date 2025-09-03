@@ -1,0 +1,20 @@
+@import url('../__origin/css/common.css');
+@import url('../__origin/css/theme/slim.css');
+@import url('../__origin/css/direction/bottom-to-top.css');
+@import url('../__origin/css/animation/move.css');
+@import url('../__origin/css/theme/diagonal.css');
+:root {
+  --lcv-rotate: -40deg;
+}
+.comments {
+  transform-origin: 100% 100%;
+}
+.comment {
+  justify-content: flex-end;
+}
+.comment-enter-from {
+  transform: translateX(-100%) !important;
+}
+.comment-leave-to {
+  transform: translateX(100%) !important;
+}
